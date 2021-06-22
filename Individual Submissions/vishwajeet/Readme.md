@@ -1,4 +1,4 @@
-![passgen](images\Strong-Password-Generator.jpg)
+![passgen](https://github.com/vishwajeet-hash/passgen-java/blob/passgen-project/Individual%20Submissions/vishwajeet/images/Strong-Password-Generator.jpg)
 
 # Passgen-java cli/cmd tool 
 
@@ -32,13 +32,13 @@ To know more about Maven follow the [link](https://maven.apache.org/)
  java -jar passgen-0.0.1-SNAPSHOT.jar
  
 This will return a default 8 digit password.
-![example](images\output1.PNG)
+![example](https://github.com/vishwajeet-hash/passgen-java/blob/passgen-project/Individual%20Submissions/vishwajeet/images/output1.PNG)
 
 * You can generate a desired length of password by setting a flag "-l" and giving the desired length
 >
  java -jar passgen-0.0.1-SNAPSHOT.jar -l 9
 
-![example](images\output2.PNG)
+![example](https://github.com/vishwajeet-hash/passgen-java/blob/passgen-project/Individual%20Submissions/vishwajeet/images/output2.PNG)
 
 ---
 ---
