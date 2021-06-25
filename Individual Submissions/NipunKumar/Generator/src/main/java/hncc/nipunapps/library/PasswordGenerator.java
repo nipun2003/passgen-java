@@ -53,9 +53,9 @@ public class PasswordGenerator implements CharDigits {
         String upperCase = getLowercase().toUpperCase();
         return upperCase;
     }
-    // Arraylist which contain all catagories of using in generating the password
+    // Arraylist which contain all categories of using in generating the password
     private  final ArrayList<String> charChats=new ArrayList<>();
-    private String generatePassword(){
+    public String generatePassword(){
         /* The method which generates the password
          * If the length is less than 4 method don't generate any password
          * Method use Random for generating the password

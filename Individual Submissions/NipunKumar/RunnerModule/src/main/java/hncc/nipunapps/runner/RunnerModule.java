@@ -8,7 +8,7 @@ import java.util.Scanner;
 import hncc.nipunapps.library.PasswordGenerator;
 
 public class RunnerModule {
-    private static final hncc.nipunapps.library.PasswordGenerator passwordGenerator =new PasswordGenerator();
+    private static final PasswordGenerator passwordGenerator =new PasswordGenerator();
     public static void main(String[] args) {
         int length;
         try{
@@ -240,7 +240,7 @@ public class RunnerModule {
         /* For copying in windows
          * This will copy the password in clipboard in windows
          */
-//		Initialising the toolkit and clipboard
+//		Initializing the toolkit and clipboard
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         Clipboard clipboard = toolkit.getSystemClipboard();
 
@@ -248,8 +248,8 @@ public class RunnerModule {
         StringSelection selection=new StringSelection(password);
         clipboard.setContents(selection,null);
 
-        /* For copying in linux distribution
-         * This will copy the password in xclip in linux
+        /* For copying in Linux distribution
+         * This will copy the password in xclip in Linux
          */
         Runtime runtime=Runtime.getRuntime();
         Process p=null;
@@ -257,7 +257,7 @@ public class RunnerModule {
             p=runtime.exec(new String[]{"sh","-c","echo"+password+" | xclip -selection clipboard"});
         }
         catch (Exception e){
-            System.out.println(e);
+            System.out.println("");
         }
         System.out.println("Password copied into clipboard");
     }
