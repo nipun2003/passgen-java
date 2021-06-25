@@ -3,8 +3,8 @@
  ### This is a simple cli tool which generates random password of default length 8
  
  ### Prerequisite
-   For compilation the class your system must install java-jdk 8.0 or above and proper setup of JAVA_HOME environment.
-   For run the jar file you must have jre 1.8 or above.
+   <div>For compilation the class your system must install java-jdk 8.0 or above and proper setup of JAVA_HOME environment.</div>
+   <div>For run the jar file you must have jre 1.8 or above.</div>
    For copy password in linux distribution you must have xclip installed in your system.
  
  ### How To Use
