@@ -1,7 +1,17 @@
 package generator;
 
-public class Generator {
-	private static char randomCharacter() {
+import java.awt.Toolkit;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.StringSelection;
+import java.io.IOException;
+//creating interface
+interface functions {
+	char randomCharacter();
+}
+
+public class Generator implements functions {
+	//randomly generate character from ASCII
+	public char randomCharacter() {
 		int rand = (int) (Math.random() * 77);
 		if (rand <= 9) {
 			int number = rand + 48;
@@ -17,22 +27,23 @@ public class Generator {
 			return (char) (lowercase);
 		}
 	}
-	public static String[] storePassword(int total,int length) {
-		String[] randomPasswords = new String[total];
-        //storing the passwords
 
-       for(int i = 0; i < total; i++) {
-           String randomPassword = "";
-           //Randomly generate a character for the password length number of times
-           for(int j = 0; j < length; j++) {
-               //Add a random lowercase or UPPERCASE character to our randomPassword String
-               randomPassword += randomCharacter();
-           }
-           //Add the random password to your array
-           randomPasswords[i] = randomPassword;
-       }
-       return randomPasswords;
-   	 }
-	
+	public static String[] storePassword(int total, int length) {
+		String[] randomPasswords = new String[total];
+		Generator generate = new Generator();
+		// storing the passwords
+
+		for (int i = 0; i < total; i++) {
+			String randomPassword = "";
+			// Randomly generate a character for the password length number of times
+			for (int j = 0; j < length; j++) {
+				// Add a random lowercase or UPPERCASE character to our randomPassword String
+				randomPassword += generate.randomCharacter();
+			}
+			// Add the random password to your array
+			randomPasswords[i] = randomPassword;
+		}
+		return randomPasswords;
+	}
 
 }
