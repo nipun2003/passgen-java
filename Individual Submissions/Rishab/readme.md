@@ -1,4 +1,4 @@
-[![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/Passgen-java.jpg?raw=true)](https://username.github.io)
+[![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/Markdown/Passgen-java.jpg?raw=true)](https://username.github.io)
 
 # This repository is 
  - CLI tool
@@ -7,7 +7,7 @@
 
 # CLI tool **(cli-tool)**
 
-[![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/markdown1.png?raw=true)](https://username.github.io)
+[![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/Markdown/markdownf2.png?raw=true)](https://username.github.io)
 
 
 ### About the Tool
@@ -17,7 +17,7 @@ This generates a set of random passwords in the Terminal.
 ### Features
  - This tool generates an user **customized** password. User can enter the total number of random passwords,length of password.
  - Random Passwords will be generated in the terminal and it will be copied to clipboard automatically.
- 
+ - If user does not provide any arguments or provide some wrong arguments it will generate a random password of length 8
 
 ### Usage
  To use this :
@@ -31,18 +31,23 @@ This generates a set of random passwords in the Terminal.
   ```
 - To run the `passgen.jar`
   ```java
+  java -jar passgen.jar 
+  ```
+  [![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/Markdown/markdownf1.png?raw=true)](https://username.github.io)
+  - To run the `passgen.jar` with proper arguments
+  ```java
   java -jar passgen.jar -n 10 -l 8
-   
-
-  ```
-  [![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/markdown2.png?raw=true)](https://username.github.io)
+   ```
+  [![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/Markdown/markdown2.png?raw=true)](https://username.github.io)
 - You can also use help by 
+  ```java
+  java -jar passgen.jar -h
   ```
-  java -jar passgen.jar -help
+  [![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/Markdown/markdownf3.png?raw=true)](https://username.github.io)
 
-[![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/markdownhelp.png?raw=true)](https://username.github.io)
-- If you enter **wrong commands** it will guide you with **proper commands**
-[![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/markdownright.png?raw=true)](https://username.github.io)
+- If you enter **wrong commands** it will generate a random password of length 8
+
+  [![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/Markdown/markdownf4.png?raw=true)](https://username.github.io)
 
 
  
