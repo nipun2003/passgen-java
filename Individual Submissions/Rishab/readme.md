@@ -1,4 +1,4 @@
-[![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/Passgen-java.jpg?raw=true)](https://username.github.io)
+[![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/Markdown/Passgen-java.jpg?raw=true)](https://username.github.io)
 
 # This repository is 
  - CLI tool
@@ -38,7 +38,7 @@ This generates a set of random passwords in the Terminal.
   ```java
   java -jar passgen.jar -n 10 -l 8
    ```
-  [![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/markdown2.png?raw=true)](https://username.github.io)
+  [![MasterHead](https://github.com/rishab0902/passgen-java/blob/master/Individual%20Submissions/Rishab/Markdown/markdown2.png?raw=true)](https://username.github.io)
 - You can also use help by 
   ```java
   java -jar passgen.jar -h
